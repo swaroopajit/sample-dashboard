@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.title{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.sub-title{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.dashboard{
+    color: white;
+    display: grid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    grid-template-columns: 10% auto;
+}
+
+.dashboard > div{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.main{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20vw auto;
+}
+
+.sidebar{
+    background-color: #0A2239;
+    height: 100vh;
+}
+
+.sidebar > div {
+    color: white;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+}
+
+.sidebar > div > div{
+    font-size: 17px;
+}
+
+.sidebar-item{
+    color: white;
+    display: grid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    grid-template-columns: 10% auto;
+}
+
+.sidebar-item > div{
+    padding: 5px;
+}
+
+.sidebar-item:hover {
+    background-color: #123F68;
+    cursor: pointer;
+}
+
+.content{
+    background-color: white;
+    height: 100%;
+}
+
+.heading{
+    box-shadow: 0px 1px 5px gray;
+    width: auto;
+    height: auto;
+}
+
+.second-heading{
+    display: inline-flex;
+    width: 100%;
+}
+
+.greeting-box{
+    padding-left: 20px;
+}
+
+.greeting{
+    margin-top: 0;
+}
+
+.user-buttons{
+    margin-left: auto;
+    margin-right: 20px;
+    display: inline-flex;
+}
+
+.user-buttons > div{
+    background-color: #123F68;
+    border-radius: 100px;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    width: 80px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.user-buttons > div:hover{
+    background-color: #0A2239;
+    cursor: pointer;
+}
+
+.topbar{
+    background-color: white;
+    height: auto;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-flex;
+}
+
+.topbar > input{
+    width: max(400px, 55vw);
+    height: 20px;
+    border: none;
+    font-size: 15px;
+    margin: 20px;
+    background-color: #DCEBF9;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.topbar > svg{
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.topbar > div{
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: auto;
+    display: inline-flex;
+}
+
+.topbar > div > div{
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.topbar > div > svg{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-content{
+    background-color: #e1e1e1;
+    height: 83%;
+    display: grid;
+    grid-template-columns: 60vw auto;
+}
+
+.main-content > div{
+    margin: 10px;
+}
+
+.rightbar > div{
+    margin-bottom: 20px;
+}
+
+.projects-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.project-card{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 5px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 20% auto;
+    row-gap: 10px;
+    border-radius: 5px;
+    border-left: 7px solid #0A2239;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.project-card:hover{
+    border-left: 10px solid #A8CDF0;
+    box-shadow: 5px 5px 5px gray;
+    cursor: pointer;
+}
+
+.project-card-button{
+    margin-left: auto;
+    margin-right: 0;
+    padding-top: 10px;
+}
+
+.project-card-button > svg{
+    padding: 5px;
+}
+
+.project-card-button > svg:hover{
+    padding: 5px;
+    background-color: gray;
+    border-radius: 100%;
+}
+
+.white-card{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.announcements{
+    padding: 5px;
+}
+
+.announcements > .text{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.announcements:hover{
+    background-color: #DCEBF9;
+    cursor: pointer;
+}
+
+.github-plug{
+    background-color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.github-plug > a{
+    color: #0A2239;
+}
+
+.github-plug > a:hover{
+    color: #18548B;
+}
